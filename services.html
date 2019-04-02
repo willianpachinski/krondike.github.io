@@ -1,0 +1,299 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href='./images/logo1.png' rel='icon' type='image/x-icon'/>
+<title>KRONDIKE</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!----font-Awesome----->
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!------ light-box-script ----->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$('.about-grid a').Chocolat({linkImages:false});
+	});
+</script>
+<!------ light-box-script ----->
+</head>
+<body>
+<div class="header_about"> </div>
+  <div class="header-home">
+	<div class="fixed-header">
+		<div class="logo">
+			<a href="index.html">
+	          <span class="secondary">Careers,skills</span>
+	          <span class="main">KRONDIKE</span>
+	        </a>
+		</div>
+				<div class="top-nav">
+				    <span class="menu"> </span>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					  	<li><a href="about.html">About</a></li>
+					  	<li class="active"><a href="services.html">Services</a></li>
+					  	<li><a href="blog.html">News</a></li>
+					  	<li><a href="contact.php">Contact</a></li>		
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+        <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".top-nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+	<!--//header-->
+   <div class="grid_4">
+		<div class="container"> 
+		       <div class="about-grids service_box">
+						<div class="col-sm-3 about-grid">
+							<a href="images/s5.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic8.1.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Blue Dream</a></h3>
+							<p class="service_desc">Blue Dream has two top-rated parents in Blueberry and Super Silver Haze. This Californian weed strain is 70% sativa which produces high THC levels in under 10 weeks of flowering.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s6.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic13.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Purple Haze</a></h3>
+							<p class="service_desc">Purple Haze is a 70% sativa strain although, unlike lime-green tropical sativa strains, it is quite dark in colour. Towards the end of flowering, especially when night-time temperatures drop quite considerably, this green turns to shades of lavender or violet.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s8.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic12.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Acapulco Gold</a></h3>
+							<p class="service_desc">Acapulco Gold takes its name from the old-time legendary Mexican cannabis strain but improved genetics and selective breeding have raised the stakes in terms of its sheer quality.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s1.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/powerafrica.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Power Africa</a></h3>
+							<p class="service_desc">
+							Power Africa Fast version reduces the flowering and maturation of the original Power Africa by more than a week. Already a quick strain this Durban Poison-based plant has been crossed with a fast-maturing male to deliver your prized buds even faster.</p>
+						</div>
+				        <div class="clearfix"> </div>
+	           </div>
+	           <div class="about-grids service_box">
+						<div class="col-sm-3 about-grid">
+							<a href="images/s7.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic14.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Grand Daddy </a></h3>
+							<p class="service_desc">There are lots of imitators out there today, but this propriety "Royal Indica" strain whose puffy buds are unusually dense, magnificent in their unreal color scheme, their unmistakable smell, awesome taste and unbelievable potency are what make it, straight up uniquely... the "Real Deal! </p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s9.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic16.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Skunk</a></h3>
+							<p class="service_desc">
+
+							In the late 1970s blending Acapulco Gold Mexican Sativa, Afghan and Colombian Gold Sativa took place and the strain thus created was called Skunk #1. The real hallmarks of this strain are abundant yields, vigour and fast and satisfying results.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s10.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic17.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Golden Berry</a></h3>
+							<p class="service_desc">
+							Golden Berry is an indica/sativa hybrid cannabis strain with a Kushberry mother and a reversed Jew Gold providing the pollen with which to fertilise her. </p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s11.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic18.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Bullshark</a></h3>
+							<p class="service_desc">If you enjoyed the strength and pure quality of the Great White Shark and/or the original old school Skunk #5 then you will definitely enjoy Bullshark.</p>
+						</div>
+				        <div class="clearfix"> </div>
+	           </div>
+	           <div class="about-grids">
+						<div class="col-sm-3 about-grid">
+							<a href="images/s2.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/viper.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Viper Haze</a></h3>
+							<p class="service_desc">
+							The amazingly stable Grape Kush crossed with the ever flavorful Super Lemon Haze creates a beautiful fruit medley with a citrus dominate flavour. </p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s3.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/blue.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Lemon Bubble</a></h3>
+							<p class="service_desc">Lemon Bubble is a cross of Super Lemon Haze fertilised by a Silver Bubble male plant. Delicious flavour and high resin production are hallmarks of this marijuana strain.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s4.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/bluberry.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">Blueberry</a></h3>
+							<p class="service_desc">Visually this plant is seriously impressive with its purple, red and blue hue which changes as it matures, after curing it takes on a lavender colour. It has a happy and uplifting effect which means that it is often enjoyed as a day time painkiller.</p>
+						</div>
+						<div class="col-sm-3 about-grid">
+							<a href="images/s12.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic19.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h3><a href="#">White Widow</a></h3>
+							<p class="service_desc">White Widow is a great indoor strain which takes around 8 weeks for flowering to finish although it can also do very well outdoors in warmer regions where it will be ready to harvest in late October in the northern hemisphere.</p>
+						</div>
+				        <div class="clearfix"> </div>
+	          </div>
+	   </div>
+	</div>
+	<div class="footer">
+		<div class="container">
+		  <div class="footer_top">
+			<div class="col-sm-3">
+			   <ul class="list1">
+			   	<h3>Browse</h3>
+			   	 <li><a href="#">Prices</a></li>
+			   	 <li><a href="#">Events</a></li>
+			   	 <li><a href="#">Blog</a></li>
+			     <li><a href="#">Contact</a></li>
+			   </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			    <h3>Next Events</h3>
+			   	 <li><a href="#">Canada</a></li>
+			   	 <li><a href="#">LasVegas</a></li>
+			   	 <li><a href="#">Uruguay</a></li>
+			   	 <li><a href="#">Holand</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			  	<h3>About Us</h3>
+			   	 <li><a href="#">About Us</a></li>
+			   	 <li><a href="#">Apply</a></li>
+			   	 <li><a href="#">Terms and Conditions</a></li>
+			   	 <li><a href="#">Register</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="socials">
+                 <li><a href="#"><i class="fa fb fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa tw fa-twitter"></i></a></li>
+              </ul>
+              <ul class="list2">
+				<li><strong class="phone">+XXXX XXXXX XX</strong><br><small>W.P</small></li>
+				<li>Questions? <a href="KRONDIKE@xxx.com">mail(at)kronkdike.com</a></li>
+			  </ul>
+			</div>
+			<div class="clearfix"> </div>
+		   </div>
+		 </div>
+	</div>
+	<div class="copy">
+	    <p>&copy; 2018 Design by <a href="https://www.linkedin.com/in/willian-pachinski-087439102/" target="_blank">WillianPachinski</a></p>
+    </div>
+</div>
+</body>
+</html>		

@@ -1,0 +1,252 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+	<link href='./images/logo1.png' rel='icon' type='image/x-icon'/>
+<title>KRONDIKE</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<link href='http://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900' rel='stylesheet' type='text/css'>
+<!----font-Awesome----->
+<link rel="stylesheet" href="fonts/css/font-awesome.min.css">
+<!----font-Awesome----->
+<!------ light-box-script ----->
+<script src="js/jquery.chocolat.js"></script>
+<link rel="stylesheet" href="css/chocolat.css" type="text/css" media="screen" charset="utf-8" />
+<script type="text/javascript" charset="utf-8">
+	$(function() {
+		$('.about-grid a').Chocolat({linkImages:false});
+	});
+</script>
+<!------ light-box-script ----->
+</head>
+<body>
+<div class="header_about"> </div>
+   <div class="header-home">
+	<div class="fixed-header">
+		<div class="logo">
+			<a href="index.html">
+	          <span class="secondary">Careers,skills</span>
+	          <span class="main">KRONDIKE</span>
+	        </a>
+		</div>
+				<div class="top-nav">
+				    <span class="menu"> </span>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+					  	<li class="active"><a href="about.html">About</a></li>
+					  	<li><a href="services.html">Services</a></li>
+					  	<li><a href="blog.html">News</a></li>
+					  	<li><a href="contact.php">Contact</a></li>		
+					</ul>
+				<!-- script-nav -->
+			<script>
+			$("span.menu").click(function(){
+				$(".top-nav ul").slideToggle(500, function(){
+				});
+			});
+			</script>
+			<!-- //script-nav -->
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+        <!--script-->
+		<script>
+			$(document).ready(function(){
+				$(".top-nav li a").click(function(){
+					$(this).parent().addClass("active");
+					$(this).parent().siblings().removeClass("active");
+				});
+			});
+		</script>
+			<!-- script-for sticky-nav -->
+		<script>
+		$(document).ready(function() {
+			 var navoffeset=$(".header-home").offset().top;
+			 $(window).scroll(function(){
+				var scrollpos=$(window).scrollTop(); 
+				if(scrollpos >=navoffeset){
+					$(".header-home").addClass("fixed");
+				}else{
+					$(".header-home").removeClass("fixed");
+				}
+			 });
+			 
+		});
+		</script>
+		<!-- /script-for sticky-nav -->
+	<!--//header-->
+	<div class="grid_1">
+	   <div class="container">
+		  <div class="box_1">
+			<h3>Who we are</h3>
+		  </div>
+		  <div class="col-md-12 about_banner"><img src="images/about.jpg" class="img-responsive" alt=""/></div>
+		  <div class="box_20">
+			  <div class="col-sm-6 box_3">
+			  	<p>Founded in 2016 while two young Brazilian university students had a great idea to join and form a great cannabis company in the world and today we have Krondike as an example of this great partnership.</p>
+			  </div>
+			  <div class="col-sm-6 box_3">
+			  	<p>We are located in California CA we are a startup we are always seeking the best in the cannabis world whether for our clients, and franchisees, and also the collaborators a good working environment welcoming and full of opportunities for various areas.</p>
+			  </div>
+		      <div class="clearfix"> </div>
+		  </div>
+	   </div>
+	</div>
+	<div class="grid_3">
+		<div class="container"> 
+			<h3>OUR AREAS</h3>
+		  <div class="about-grids">
+						<div class="col-sm-4 about-grid">
+							<a href="images/s1.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic8.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h4><a href="#">ADMINISTRATION</a></h4>
+							<p>Do you like to manage with flexibility? We want you with us we offer assorted models of work contract that you will like.</p>
+						</div>
+						<div class="col-sm-4 about-grid">
+							<a href="images/s2.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic9.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h4><a href="#">TECHNOLOGY</a></h4>
+							<p>Technology is as important as you are in the areas of support, development, and innovation.</p>
+						</div>
+						<div class="col-sm-4 about-grid">
+							<a href="images/s3.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic10.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h4><a href="#">ENGINEERING</a></h4>
+							<p>Are you happy creating and researching new things? So we already know we're trying to meet you.</p>
+						</div>
+						<div class="col-sm-4 about-grid">
+							<a href="images/s4.jpg" title="name" rel="title2">
+						    <div class="view view-first">
+                              <img src="images/pic11.jpg" class="img-responsive" alt=""/>
+                              <div class="mask">
+                                <div class="info"><img src="images/magnify-alt.png" alt=""></div>
+		                      </div>
+                             </div>
+							</a>
+							<h4><a href="#">PRODUCTION AND SALES</a></h4>
+							<p>Likes and is passionate about marijuana you think you are different from society so you already know that here is join us.</p>
+						</div>
+				        <div class="clearfix"> </div>
+	      </div>
+	   </div>
+	</div>
+	<div class="advantages"> 
+		<div class="container">
+			<div class="col-md-6">
+				<h3 class="m_3">OUR PROJECTS</h3>
+				<div class="feature about_box1">
+	                   <i class="fa fa-globe"> </i>
+	                   <h4>Philanthropic Companies</h4>
+	                    <p>
+	                        Help is good and everyone likes we believe that we can change the world in many ways and so we contribute to it if possible.
+	                    </p>
+	            </div>
+	            <div class="feature about_box1">
+	                   <i class="fa fa-heart"> </i>
+	                   <h4>Technology Lovers</h4>
+	                    <p>
+	                        We assist trainees or technology students in all parts of the world who do not have financial conditions.
+	                    </p>
+	            </div>
+	            <div class="feature">
+	                   <i class="fa fa-gears"> </i>
+	                   <h4>COMBAT TO DEFORESTATION</h4>
+	                    <p>
+	                        How we love nature to bring us our main product we seek to help it in the same way
+	                    </p>
+	            </div>
+			</div>
+			<div class="col-md-6">
+				<h3 class="m_3">FOUNDERS</h3>
+				<ul class="about_box span_1">
+				  <li class="box_img"><img src="images/pic9.1.jpg" class="img-responsive" alt=""/></li>
+				  <li class="box_desc">William Pachinski - CEO and President, Brazilian Graduated in Web designer and Information Systems.</li>
+				  <h4>Want to know more? <span><a href="#">Follow.</a></span></h4>
+				  <div class="clearfix"> </div>
+				</ul>
+				<ul class="about_box span_1">
+				  <li class="box_img"><img src="images/pic9.1.jpg" class="img-responsive" alt=""/></li>
+				  <li class="box_desc">Junior Gravonski - Brazilian CO-Funder graduated in veterinary medicine.<h4>Want to know more?<span><a href="#">Follow.</a></span></h4>
+				  <div class="clearfix"> </div>
+				</ul>
+			</div>
+		</div>
+	</div>
+   <div class="footer">
+		<div class="container">
+		  <div class="footer_top">
+			<div class="col-sm-3">
+			   <ul class="list1">
+			   	<h3>Browse</h3>
+			   	 <li><a href="#">Prices</a></li>
+			   	 <li><a href="#">Events</a></li>
+			   	 <li><a href="#">Blog</a></li>
+			     <li><a href="#">Contact</a></li>
+			   </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			    <h3>Next Events</h3>
+			   	 <li><a href="#">Canada</a></li>
+			   	 <li><a href="#">LasVegas</a></li>
+			   	 <li><a href="#">Uruguay</a></li>
+			   	 <li><a href="#">Holand</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="list1">
+			  	<h3>About Us</h3>
+			   	 <li><a href="#">About Us</a></li>
+			   	 <li><a href="#">Apply</a></li>
+			   	 <li><a href="#">Terms and Conditions</a></li>
+			   	 <li><a href="#">Register</a></li>
+			  </ul>
+			</div>
+			<div class="col-sm-3">
+			  <ul class="socials">
+                 <li><a href="#"><i class="fa fb fa-facebook"></i></a></li>
+                 <li><a href="#"><i class="fa tw fa-twitter"></i></a></li>
+              </ul>
+              <ul class="list2">
+				<li><strong class="phone">+XXXX XXXXX XX</strong><br><small>W.P</small></li>
+				<li>Questions? <a href="KRONDIKE@xxx.com">mail(at)kronkdike.com</a></li>
+			  </ul>
+			</div>
+			<div class="clearfix"> </div>
+		   </div>
+		 </div>
+	</div>
+	<div class="copy">
+	    <p>&copy; 2018 Design by <a href="https://www.linkedin.com/in/willian-pachinski-087439102/" target="_blank">WillianPachinski</a></p>
+    </div>
+</div>
+</body>
+</html>		
